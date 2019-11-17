@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+.mainDiv {
+    border: 1px solid black;
+    background-color: cadetblue;
+    width: 750px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.gridRow {
+    flex-direction: row;
+    background-color: coral;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: coral;
+    flex: 1 1 0px;
+}
+.gridSquare {
+    border: 1px solid black;
+    background-color: crimson;
+    display: flex;
+    background-color: crimson;
+    flex: 1 1 0px;
+}
