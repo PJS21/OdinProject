@@ -44,7 +44,15 @@ function createGrid(rows, columns) {
 
 }
 
-
+function highlightSquares() {
+    choices = document.querySelectorAll('.gridSquare');
+    choices.forEach(choice => {
+        choice.addEventListener('mouseenter', function(e){
+            choice.classList.toggle('highlighted');
+        })
+    });
+}
 
 
 createGrid(16,16);
+highlightSquares();
