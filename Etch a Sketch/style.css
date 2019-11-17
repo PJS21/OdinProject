@@ -26,3 +26,6 @@
     background-color: crimson;
     flex: 1 1 0px;
 }
+.highlighted {
+    background-color: lightgray;
+}
